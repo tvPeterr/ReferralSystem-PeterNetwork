@@ -1,0 +1,54 @@
+####################################################################################################
+# +----------------------------------------------------------------------------------------------+ #
+# |             _____       __                    _  _____           _                           | #
+# |            |  __ \     / _|                  | |/ ____|         | |                          | #
+# |            | |__) |___| |_ ___ _ __ _ __ __ _| | (___  _   _ ___| |_ ___ _ __ ___            | #
+# |            |  _  // _ \  _/ _ \ '__| '__/ _` | |\___ \| | | / __| __/ _ \ '_ ` _ \           | #
+# |            | | \ \  __/ ||  __/ |  | | | (_| | |____) | |_| \__ \ ||  __/ | | | | |          | #
+# |            |_|  \_\___|_| \___|_|  |_|  \__,_|_|_____/ \__, |___/\__\___|_| |_| |_|          | #
+# |                                                         __/ |                                | #
+# |                                                        |___/                                 | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  WIKI:        https://pedrojm96.com/minecraft-plugin/referralsystem/                         | #
+# |  BUG REPORTS: https://www.spigotmc.org/threads/referralsystem.183585/                        | #
+# |  AUTHOR: PedroJM96 (pedrojm96.com)                                                           | #
+# |  OFFICIAL SERVER: mc.mundopixels.net                                                         | #
+# |                                                                                              | #
+# +----------------------------------------------------------------------------------------------+ #
+# | For a detailed explanation of the configuration see this page.                               | #
+# | https://pedrojm96.com/minecraft-plugin/referralsystem/config/                                | #
+# +----------------------------------------------------------------------------------------------+ #
+####################################################################################################
+
+update-check: true
+messages: EN
+prefix: '&x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li
+  &8&l» '
+points-reward-player: 10
+points-reward-referrer: 5
+claim-bonus-referrer: 5
+points-reward-bonus-referrer: 15
+limit-player-ip: true
+max-player-ip: 3
+fireworks-enable: true
+particles-enable: false
+sounds-enable: false
+menu-claim: true
+requires-playtime: false
+min-playtime: 1
+max-playtime: 1800
+use-external-points:
+  enable: false
+  SuperCredits: false
+  PlayerPoints: false
+  Vault: false
+data-storage:
+  type: MySQL
+  host: 1.1.1.1
+  port: 3306
+  database: your_database
+  username: user
+  password: super_secret_password
+  useSSL: false

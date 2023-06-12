@@ -1,0 +1,301 @@
+####################################################################################################
+# +------+ #
+# |             _____       __                    _  _____           _                           | #
+# |            |  __ \     / _|                  | |/ ____|         | |                          | #
+# |            | |__) |___| |_ ___ _ __ _ __ __ _| | (___  _   _ ___| |_ ___ _ __ ___            | #
+# |            |  _  // _ \  _/ _ \ '__| '__/ _` | |\___ \| | | / __| __/ _ \ '_ ` _ \           | #
+# |            | | \ \  __/ ||  __/ |  | | | (_| | |____) | |_| \__ \ ||  __/ | | | | |          | #
+# |            |_|  \_\___|_| \___|_|  |_|  \__,_|_|_____/ \__, |___/\__\___|_| |_| |_|          | #
+# |                                                         __/ |                                | #
+# |                                                        |___/                                 | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |                                                                                              | #
+# |  WIKI:        https://pedrojm96.com/minecraft-plugin/referralsystem/                         | #
+# |  BUG REPORTS: https://www.spigotmc.org/threads/referralsystem.183585/                        | #
+# |  AUTHOR: PedroJM96 (pedrojm96.com)                                                           | #
+# |  OFFICIAL SERVER: mc.mundopixels.net                                                         | #
+# |                                                                                              | #
+# +------+ #
+# |                                          Menu Nodes                                          | #
+# +------+ #
+# |                                                                                              | #
+# |  settings-name: The name of the menu.                                                        | #
+# |  settings-rows: Number of rows in the menu. (1,2,3,4,5,6).                                   | #
+# |  settings-open-sound: Sound that will sound when you open the menu.                          | #
+# |  settings-glass-enable: To place decoration glasses. default false                           | #
+# |  settings-glass-color: The color of the glasses. From 0 to 15                                | #
+# |  items: List of items that will contain the menu.                                            | #
+# |                                                                                              | #
+# |                                                                                              | #
+# +------+ #
+# |                                          Items Nodes                                         | #
+# +------+ #
+# |                                                                                              | #
+# |  name: The name of the item.                                                                 | #
+# |  lore: The description of the item.                                                          | #
+# |  material: The material of the item. Example: "SKULL_ITEM:3","DIAMOND".                      | #
+# |  slot: Location in the inventory of the item.                                                | #
+# |  commands: Command that is executed when clicking.  (server, player, console, op,            | #
+# |            broadcast, give, money, points, tell, open, world).                               | #
+# |  permission: Permission to use the item.                                                     | #
+# |  price: Price to use the item. default none.                                                 | #
+# |  keep-open: To keep inventory open. default false.                                           | #
+# |  permission-to-view: Permission to view the inventory. default false.                        | #
+# |  skull: To use heads with skin.                                                              | #
+# |        (url: address.png | textures: <Base64 code> | web: <player> | <player>)               | #
+# |  enchant-glow: To add enchantment colors to the items. default false                         | #
+# |  no-permision-message: Message that will be shown to the player when he does not have the    | #
+# |                        permissions to use the item.                                          | #
+# |  one-time: So you can claim only once.                                                       | #
+# |                                                                                              | #
+# |                                                                                              | #
+# +------+ #
+# +------+ #
+# | For a detailed explanation of the configuration see this page.                               | #
+# | https://pedrojm96.com/minecraft-plugin/referralsystem/claim/                                 | #
+# +------+ #
+####################################################################################################
+
+settings-name: '§x§0§0§b§d§f§8§lR§x§0§0§b§f§f§8§li§x§0§0§c§1§f§8§lc§x§0§0§c§3§f§8§lo§x§0§0§c§5§f§9§lm§x§0§0§c§7§f§9§lp§x§0§0§c§9§f§9§le§x§0§0§c§b§f§9§ln§x§0§0§c§e§f§9§ls§x§0§0§d§0§f§9§le §x§0§0§d§2§f§9§lI§x§0§0§d§4§f§9§ln§x§0§0§d§6§f§a§lv§x§0§0§d§8§f§a§li§x§0§0§d§a§f§a§lt§x§0§0§d§c§f§a§lo'
+settings-rows: 3
+items:
+  Empty_Space:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 1
+    price: 30000000000
+    one-time: true
+  Empty_Space1:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 2
+    price: 30000000000
+    one-time: true
+  Empty_Space2:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 3
+    price: 30000000000
+    one-time: true
+  Empty_Spac3:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 4
+    price: 30000000000
+    one-time: true
+  Empty_Space4:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 5
+    price: 30000000000
+    one-time: true
+  Empty_Space5:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 6
+    price: 30000000000
+    one-time: true
+  Empty_Spac6:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 7
+    price: 30000000000
+    one-time: true
+  Empty_Space7:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 8
+    price: 30000000000
+    one-time: true
+  Empty_Space8:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 9
+    price: 30000000000
+    one-time: true
+  Keys:
+    name: '&ax2 Chiavi &8(&fPrezzo: &e<price> Punti ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x1 &c[&eChiave §x§f§b§4§b§0§0D§x§f§b§5§8§0§6u§x§f§b§6§5§0§cn§x§f§b§7§2§1§2g§x§f§b§7§e§1§8e§x§f§b§8§b§1§eo§x§f§b§9§8§2§4n&c]'
+    - '&7x1 &c[&eChiave &8Spawner&c]'
+    - '&8&m'
+    material: TRIPWIRE_HOOK
+    slot: 10
+    commands:
+    - 'cr give to <player> Dungeon 1'
+    - 'cr give to <player> Spawner 1'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 15
+    one-time: true
+
+  Money:
+    name: '&a50k Soldi &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x1 &fAssegno &a50.000 $'
+    - '&8&m'
+    material: PAPER
+    slot: 11
+    commands:
+    - 'eco give <player> 50000'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 25
+    one-time: true
+  kit_arena:
+    name: '&ax1 Kit ArenaPvP &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x32 &7Ragnatela Lanciabile'
+    - '&7x16 &f&lSwitcher Balls'
+    - '&8&m'
+    material: NETHERITE_SWORD
+    slot: 12
+    commands:
+    - 'switcherball give <player> 32'
+    - 'throwablecobweb give <player> 32'
+    - 'give <player> diamond_sword 1'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 40
+    one-time: true
+  KeysSpawner:
+    name: '&ax3 Chiavi Spawner &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x3 &c[&eChiave &8Spawner&c]'
+    - '&8&m'
+    material: SPAWNER
+    slot: 13
+    commands:
+    - 'cr give to <player> Spawner 3'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 50
+    one-time: true
+  Money4:
+    name: '&a100k Soldi &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x1 &fAssegno &a100.000 $'
+    - '&8&m'
+    material: PAPER
+    slot: 14
+    commands:
+    - 'eco give <player> 100000'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 60
+    one-time: true
+  PacchettoDungeon:
+    name: '&ax1 Pacchetti Dungeon &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x1 &7Dungeon ticket &5&lThe Witch'
+    - '&7x1 &7Dungeon ticket &d&lHerobrine'
+    - '&7x1 &7Dungeon ticket &3&lThe Warden'
+    - '&7x1 &7Dungeon ticket &8&lDark Knight'
+    - ''
+    - '&cRichiede 4 Spazi in Inventario'
+    - '&8&m'
+    material: DIAMOND
+    slot: 15
+    commands:
+    - 'da ticket give <player> dark_knight'
+    - 'da ticket give <player> herobrine'
+    - 'da ticket give <player> the_warden'
+    - 'da ticket give <player> the_witch'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 70
+    one-time: true
+  Money5:
+    name: '&a300k Soldi &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x1 &fAssegno &a300.000 $'
+    - '&8&m'
+    material: PAPER
+    slot: 16
+    commands:
+    - 'eco give <player> 300000'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 85
+    one-time: true
+  tripwire_hook1:
+    name: '&ax5 Chiavi Spawner &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x5 &c[&eChiave &8Spawner&c]'
+    - '&8&m'
+    material: TRIPWIRE_HOOK
+    slot: 17
+    commands:
+    - 'cr give to <player> Spawner 5'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 100
+    one-time: true
+  tripwire_hook:
+    name: '&ax3 Chiavi Ultimate &8(&fPrezzo: &e<price> ★&8)'
+    lore:
+    - '&8&m'
+    - '&7x3 &c[&eChiave §x§b§6§2§4§f§bU§x§a§2§2§b§f§bl§x§8§e§3§3§f§bt§x§7§a§3§a§f§bi§x§6§5§4§1§f§bm§x§5§1§4§8§f§ba§x§3§d§5§0§f§bt§x§2§9§5§7§f§be&c]'
+    - '&8&m'
+    material: TRIPWIRE_HOOK
+    slot: 18
+    commands:
+    - 'cr give to <player> Ultimate 3'
+    - 'tell: &x&0&0&b&f&f&b&lI&x&0&0&c&5&f&b&ln&x&0&0&c&c&f&c&lv&x&0&0&d&2&f&c&li&x&0&0&d&9&f&d&lt&x&0&0&d&f&f&d&li &8&l» &7Hai Riscattato un Premio grazie hai tuoi Inviti!'
+    price: 120
+    one-time: true
+  Empty_Space10:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 19
+    price: 30000000000
+    one-time: true
+  Empty_Space11:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 20
+    price: 30000000000
+    one-time: true
+  Empty_Space12:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 21
+    price: 30000000000
+    one-time: true
+  Empty_Spac13:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 22
+    price: 30000000000
+    one-time: true
+  Empty_Space14:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 23
+    price: 30000000000
+    one-time: true
+  Empty_Space15:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 24
+    price: 30000000000
+    one-time: true
+  Empty_Spac16:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 25
+    price: 30000000000
+    one-time: true
+  Empty_Space17:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 26
+    price: 30000000000
+    one-time: true
+  Empty_Space18:
+    name: '&a'
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 27
+    price: 30000000000
+    one-time: true
